@@ -1,0 +1,152 @@
+.jumbotron {
+    background: url(https://i.pinimg.com/originals/54/58/0b/54580b6b01f552e409b0db1376226609.jpg);
+    text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+button a {
+  color: #ffffff !important;
+}
+
+.post img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.shrinkStart {
+  height: 200px;
+  transform: scale(1);
+  transition: transform 500ms, height 800ms;
+}
+
+.shrinkFinish {
+  height: 0px;
+  transform: scale(0);
+}
+
+.card-header > button {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.card-header:hover button {
+    opacity: 1;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #000000b5;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.overlay .alert {
+  width: 50%;
+  margin: 40vh auto;
+}
+
+.comment-wrapper {
+  transform: scaleY(1);
+  transition: transform 500ms;
+}
+.shrink {
+  transform: scaleY(0);
+}
+.navbar-dark .navbar-brand {
+    color: #ff12e9;
+    font-family: 'Lobster Two', cursive;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #ff12e9;
+    font-family: 'Lobster Two', cursive;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(225 118 226);
+        font-family: 'Lobster Two', cursive;
+}
+.bg-dark {
+    background-color: #000000!important;
+}
+.text-center {
+    text-align: center!important;
+    color: #B00B69;
+    font-family: 'Satisfy', cursive;
+    font-size: larger;
+}
+.text-white {
+    color: #ff00f4 !important;
+    font-size: xx-large;
+}
+.btn-outline-light {
+    color: #f334db;
+    background-color: #da00c900;
+    background-image: none;
+    border-color: #ffffff;
+}
+h1.display-3 {
+    color: #81117c;
+}
+.alert-success {
+    color: #ff00f2;
+    background-color: #010101;
+    border-color: #ff02fc;
+}
+a {
+    color: #ff09f3;
+    text-decoration: none;
+    background-color: #0c000c;
+
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #620661;
+    text-align: left;
+    background-color: #ffdcdc;
+}
+h3 {
+    color: #ee02ed;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #fa03cb;
+    margin-left: 230px;
+    font-family: 'Cookie', cursive;
+}
+.btn-outline-success {
+    color: #ff00f2;
+    background-color: #0b0101;
+    background-image: none;
+    border-color: #ffffff;
+    margin-left: 220px;
+}
+.btn-outline-primary {
+    color: #f800eb;
+    background-color: black;
+    background-image: none;
+    border-color: #ffffff;
+
+}
+.h2, h2 {
+    font-size: 2rem;
+    text-align: center;
+}
